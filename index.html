@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Website</title>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" type="text/css" href="styles.css">
+    <script src="app.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+    <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
+  </head>
+  <body  style="margin:4; padding:4">
+    <script>
+      const intervalId = setInterval(askApi, 3000);
+
+    </script>
+    <h2><strong>¿CUÁL ES LA MEJOR MASCOTA?</strong></h2>   
+    
+    <br>
+    <div class="center">
+        <div class="container">
+          <label for="perrosProgressBar"><h4>Perros</h4></label>
+          <progress class="progress" id="perrosProgressBar" max="100" value="0" ></progress>
+          <div id="icono">
+            <span class="icon">👍</span>
+            <h5 id="perrosCounter">0</h5>
+          </div>
+        </div>
+      
+      <div class="container">
+        <label for="gatosProgressBar"><h4>Gatos</h4></label>
+          <progress class="progress" id="gatosProgressBar" max="100" value="0" ></progress>
+          
+          <div id="icono">
+            <span class="icon">❤️</span>
+            <h5 id="gatosCounter">0</h5>
+          </div>          
+      </div>
+
+      <div class="container">
+        <label for="hamsterProgressBar"><h4>Hamsters</h4></label>
+        <progress class="progress" id="hamsterProgressBar" max="100" value="0" ></progress>
+        <div id="icono">
+          <span class="icon">😆</span>
+          <h5 id="hamsterCounter">0</h5>
+        </div>
+      </div>
+
+      <div class="container">
+        <label for="conejoProgressBar"><h4>Conejos</h4></label>
+        <progress class="progress" id="conejoProgressBar" max="100" value="0" ></progress>
+        <div id="icono">
+          <span class="icon">😯</span>
+          <h5 id="conejoCounter">0</h5>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</div>
+    <script src="app.js"></script>
+  </body>
+</html>

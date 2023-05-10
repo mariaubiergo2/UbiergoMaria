@@ -1,0 +1,93 @@
+body {
+  padding: 50px;
+  font-family: 'MV Boli', sans-serif;
+  scroll-behavior: smooth;
+  background-image: linear-gradient(to right, rgb(255, 234, 255) , rgb(255, 180, 255));
+}
+
+.row {
+  width: 100%;
+  padding: 10px;
+  display: inline-block;
+  align-items: center;
+}
+
+.center {
+  height:max-content;
+  background-color: rgba(226, 199, 252, 0.719);
+  padding: 40px;
+  border: 7px solid rgb(170, 0, 255);
+  border-radius: 8px;
+}
+
+h2{
+  text-align: center;
+  color: rgb(170, 0, 255);
+}
+
+label {
+  color: rgb(170, 0, 255);  
+  font-size: 24px;
+  margin: auto;
+}
+
+.container {
+  display: flex;
+  align-items: center;
+}
+
+#icono {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+h5{
+  margin: 0; /* Remove any margin */
+  padding: 0; /* Remove any padding */
+  font-size: 18px;
+}
+
+.icon{
+  font-size: 60px;
+}
+
+progress { 
+  display: inline-block;
+  width:80%;
+  height: 40px;
+  margin-right: 10px;
+  background-color: #f2f2f2;
+  border-radius: 16px;
+  overflow: hidden;
+
+  position: relative;
+}
+
+/* Style the progress bar text */
+progress[value]::-webkit-progress-bar {
+  background-color: #ffffff;
+  border-radius: 10px;
+}
+
+progress[value]::-webkit-progress-value {
+  background-color: #5e4caf;
+  background-image: linear-gradient(to right, rgb(212, 255, 0) , rgb(255, 187, 0));
+  border-radius: 16px;
+}
+
+#gatosProgressBar[value]::-webkit-progress-value  {
+  background-image: linear-gradient(to right, rgb(0, 179, 255) , rgb(38, 0, 255));
+}
+
+#hamsterProgressBar[value]::-webkit-progress-value  {
+  background-image: linear-gradient(to right, rgb(255, 0, 157) , rgb(136, 0, 255));
+}
+
+#conejoProgressBar[value]::-webkit-progress-value  {
+  background-image: linear-gradient(to right, rgb(255, 153, 0) , rgb(196, 17, 17));
+}
+
